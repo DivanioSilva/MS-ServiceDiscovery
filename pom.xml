@@ -9,13 +9,15 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ds.ms.service.discovery</groupId>
-    <artifactId>MS-ServiceDiscovery</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>MS-ServiceDiscovery</name>
-    <description>MS-ServiceDiscovery</description>
+    <artifactId>MSServiceDiscovery</artifactId>
+    <version>${revision}-RELEASE</version>
+    <name>MSServiceDiscovery</name>
+    <description>MSServiceDiscovery</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
+        <docker_port>8761</docker_port>
+        <docker_internal_port>8761</docker_internal_port>
     </properties>
     <dependencies>
         <dependency>
